@@ -1,0 +1,18 @@
+
+após definir como vai ser lido os dados na aula de Formats [[Format]]. Vamos aprender a definir a origem dos dados e o que vai ocasionar o evento de carga desses dados.
+### O que é um stream?
+Stream é onde nós determinamos a origem dos dados e o que vai ocasionar a carga dos dados, como mencionado anteriormente. Também é onde adicionamos nosso format (que é o responsável pela leitura dos dados)
+
+**A origem dos dados** para tipo de stream **"ficheiro"** é basicamente a localização do arquivo no nosso sistema ( uma pasta no nosso servidor linux por exemplo).  Já para stream do tipo **"Banco de dados"**  a origem é indicada dentro do format;
+
+ Dentro do stream nós definimos ações e querys, que para o caso do tipo "Banco de dados", são só querys específicos que são postos a parte do format, para que toda vez que entre o fluxo de dados do format, o query seja executada e pode ser reaproveitado dentro do format. Realizando um processamento paralelo, um balanceamento de carga.
+ 
+ No entanto, para streams do tipo "ficheiro", nós temos configurações, codecs e ações quando dá sucesso.
+
+### Configurações e ações de uma stream ficheiro (file)
+Ao criar uma ação na aba central de "Detection Actions", devemos indicar o tipo de ação, no caso pra ficheiro, é uma geralmente de ficheiro de sistema (system file), definimos as configurações: a parte de Fetch (onde definimos se posso procurar em outras pastas ou a idade mínima e máxima do arquivo) e Matcher ( como vamos encontrar o arquivo na pasta, onde definimos o padrão de busca "." para qualquer arquivo no diretório). 
+Por fim as ações, caso nossa busca pela origem certa tenha dado sucesso/erro. Podemos definir mover para uma pastar de sucessos e erros, dentre outras possibilidades (deletar, adicionar pré-fixo, sufixo)
+
+
+
+Basicamente essa é a finalidade de stream de arquivos, identificamos qual arquivo vamos trabalhar no diretório de origem (tanto  local, como FTP e data base), saber com qual arquivo trabalhar e as ações de mover ou renomear caso o processamento de dados do arquivo dê sucesso ou erro.

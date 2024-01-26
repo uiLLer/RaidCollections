@@ -1,0 +1,41 @@
+Após entendido o conceito de páginas da aula [[Páginas]]. partimos para os Formats:
+
+### O que são Formats?
+Nada mais é como a configuração da forma de como vamos ler os dados, baseada em tipos de dados,( entre consultas em banco de dados, arquivos dsv e o tipo binário)
+
+Para acessar a aba de formats, devemos seguir o caminho:
+Aba lateral esquerda -> Configurações -> Smart Data Stream -> Formats
+
+
+### Format tipo Banco de dados:
+ Abrindo um Format do tipo banco de dados encontramos um select do SQL para um banco Oracle (que é o que utilizamos). Podemos fazer o enriquecimento das informações, tanto no format como no nosso gerenciador de banco de dados (SQL  developer)
+
+
+### Format  do tipo DSV:
+ Abrindo um Format do tipo DSV nos deparamos com mais informações em relação á de banco de dados. No format para arquivo DSV, devemos informar: 
+ 
+ **qual é o delimitador das colunas** ( o que define o separador entre as colunas, como "," por exemplo);
+ 
+ **tipo de codificação do arquivo**, que define a codificação dos caracteres;
+ 
+ **Delimitador de registros**, que é oq define quando um registro acaba, geralmente cada registro acaba no final da linha, então usamos o do Windows (CR-LF);
+ 
+ **Caractér de Aspas**, que basicamente indica qual tipo de aspas nós usamos para ignorar o delimitador de coluna se estiver contido entre as duas(`Por exemplo, em um arquivo CSV onde o delimitador de campos é a vírgula (,), se um campo contém o texto "Maçãs, Bananas", as aspas são usadas para indicar que a vírgula dentro das aspas não deve ser interpretada como um delimitador de campo`.). Se não indicarmos, considera-se as aspas normais e duplas como caractér;
+
+**Linha para saltar**, é para no caso que tenha um cabeçalho no seu arquivo, caso não tenha, basta colocar 0.
+
+Depois de definido esses parâmetros, devemos informar, quais colunas queremos extrair do arquivo. Podemos adicionar uma a uma na aba de coluna, ou podemos importar via ficheiro(arquivo) de teste(atentar-se ao tipo de dado de cada coluna)
+
+### Format tipo binário:
+Arquivos do tipo binário, podem conter vários tipos de registros,. que as colunas são determinadas pela posição. Ao criar um format do tipo binário, devemos criar os tipos de registros.
+
+Cada registro possui:
+
+**Prefixo**, que basicamente indica o começo do registro;
+
+**Campos**, que basicamente são as colunas do nossos dados(caso seja um registro de dados, pode acabar não contendo dados, por ex: cabeçalho onde estão os nomes das colunas). Para cada campo devemos indica o índice de início, tamanho da coluna, tipo de dado e o nome da coluna.
+
+Por fim, o format mostra um preview dos dados no ícone de "terminal splitado" na barra inferior á esquerda.
+
+> [!NOTA:]
+> Quando criamos um format, nomeamos eles, para fins de normalização como "FMT_" seguido da finalidade desse format, ou a origem dos dados
