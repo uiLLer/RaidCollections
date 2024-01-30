@@ -36,7 +36,7 @@ para adicionar, basta selecionar no nosso menu o componente que queremos adicion
 após adicionar o nosso datalist via menu, devemos selecionar qual entidade iremos representar. Nisso podemos selecionar os logical fields para serem vistos na nossa tabela.
 No nosso datalist, podemos mudar a formatação da tabela e adicionar filtros (geralmente não usamos esse filtro, utilizamos um que filtra todos os componentes de uma vez)
 
-> [!NOTA] Nota
+> [!NOTA] Nota:
 > Essa visão de datalist pode acabar sendo custosa, a nível de memória, se no nossa entidade tiver uma alta quantidade de registros.
 
 ###### Adicionando um Chart (Gráfico):
