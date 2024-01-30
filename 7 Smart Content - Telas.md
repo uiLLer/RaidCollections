@@ -5,7 +5,7 @@ Nessa aula, veremos como criar uma tela, visões de datalist e entre outros elem
 ### O que é um Smart Content?
 basicamente, o smart content é o conteúdo e tela da nossa página, é nele onde fazemos nossas exibições gráficas baseadas nos dados do nosso Oracle e também visualizar/comandar o nossos fluxos de dados da aplicação.
 
-##### Como criar um Smart Content:
+###### Como criar um Smart Content:
 Para começo de conversa, iremos seguir o seguinte caminho:
 
 Aba lateral esquerda -> Smart Content -> New Content
