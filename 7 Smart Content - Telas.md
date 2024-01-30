@@ -2,7 +2,7 @@ Seguindo após entender o conteúdo da aula [[6 Logical Fields]].
 
 Nessa aula, veremos como criar uma tela, visões de datalist e entre outros elementos gráficos.
 
-### O que é um Smart Content?
+## O que é um Smart Content?
 basicamente, o smart content é o conteúdo e tela da nossa página, é nele onde fazemos nossas exibições gráficas baseadas nos dados do nosso Oracle e também visualizar/comandar o nossos fluxos de dados da aplicação.
 
 ###### Como criar um Smart Content:
@@ -29,7 +29,7 @@ Podemos após criado, alterar o nome, descrição.
 Podemos criar secções, ou seja, ao invés de criar mais de um smart content para um conteúdo específico, podemos particionar nosso smart content em várias outras telas.
 
 
-#### Adicionando componentes na nossa tela:
+## Adicionando componentes na nossa tela:
 para adicionar, basta selecionar no nosso menu o componente que queremos adicionar
 
 ###### Adicionando um Datalist:
