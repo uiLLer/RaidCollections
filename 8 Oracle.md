@@ -20,7 +20,7 @@ Onde vamos visualizar informações de permissões de usuários, raid e dados de
 ###### DAT:
 Onde vão estar as principais informações do negócio do cliente e algumas tabelas já prontas para modelar a soluções para o cliente(basicamente é onde estão tabelas do cliente)
 
-## Informações guardadas nas tabelas:
+## Informações  mais importantes guardadas nas em tabelas:
 
 ###### ACM_T_CASE:
 Onde estão os casos que foram criados no raid, que é um estudo de algum comportamento criado no raid.
@@ -35,9 +35,67 @@ Carrega a definição do objeto em um .xml e também guarda as versões e respec
 ###### BPM_C_RUNNING_FLOWS:
 que mostra os flow que estão em execução
 ###### DP_C_COTROL:
-Dados do flux de controle, que executam os fluxos de carga e outros processos.
+Dados dos fluxos de controle, que executam os fluxos de carga e outros processos.
 
 ###### DP_C_INPUT:
 Onde tem um resumo de quanto dados foram executados em um fluxo de carga e o status dele.
 
-	[...]
+## Significados por Siglas das tabelas:
+
+###### ACM e ACT:
+são referenciadas à casos abertos por usuários, um processo de análise de dados e dependendo dessa análise, algum casos podem ser gerados para os colaboradores analisarem e realizarem alguma ação.
+###### AF:
+São de objetos relacionados com o sistema
+
+###### APP:
+criadas por algum projeto específico do cliente
+
+###### BPM RUNNING FLOWS:
+relacionadas a execução de fluxo
+
+###### BSCKPI:
+São relacionadas a indicadores da aplicação e pontuação
+
+###### CBPM:
+Tabelas de estatísticas de execução de fluxo
+
+###### CFG:
+São tabelas de parâmetros
+
+COB:
+São tabelas utilizadas para resolução de cliente "COB de colaborador"
+
+###### DM_TRANSACTION:
+São tabelas de transação de dados de controle e estatística
+
+###### DP_C:
+São tabelas de controle de carga
+
+###### EH:
+São tabelas de envento
+
+###### GEN:
+São tabelas geradas para implementar algumas soluções dos clientes
+
+###### ICS:
+fazem parte de algumas tabelas prontas para a solução do cliente (como exemplificado no nosso curso, a tabela final utilizada para registrar os dados)
+
+######  RCT:
+Mais tabelas criadas para soluções de clientes
+
+###### SC, SCH, NFE, INT:
+tabelas pré-determinadas do sistema
+
+###### VW:
+são tabelas utilizadas como base para uma view.
+(vale ressaltar que tanto como tabelas podem ser representadas como entidades, view também podem ser mapeadas como etidade)
+
+
+### Significados dos componentes de nomenclatura de uma tabela de cliente:
+`SEF: Secretaria da Fazenda`
+`X: indica que o objeto vai ter dados bastante completos (customizada e criada manualmente contento bastante informação específico)`
+`T: indica que é uma tabela`
+`R: indica que é uma tabela de referência`
+`VW: indica que está relacionada com alguma view`
+`L: indica que é uma tabela de ligação`
+`H: indica que é uma tabela de histórico`
