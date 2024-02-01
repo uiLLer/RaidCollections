@@ -49,8 +49,8 @@ A parte mais importante é a da instância, dentro da instância de portal temos
 
 `/instances/CB/bin: onde tem scripts importantes do produto;`
 
-`/instances/CB/config: onde tem arquivos de configuração do produto;
-`
+`/instances/CB/config: onde tem arquivos de configuração do produto;`
+
 `/instances/CB/log tail CB.log: um aquivo de log que registra os eventos que estão acontecendo na aplicação (por ex quando dá algum erro de fluxo);`
 
 `/instances/CB/data/file-repository: uma pasta para onde vão os arquivos que são feitos o upload através de uma tela na aplicação (que fica dentro do CB ou do RAS);`
