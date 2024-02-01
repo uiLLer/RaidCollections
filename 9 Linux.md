@@ -41,9 +41,9 @@ A parte mais importante é a da instância, dentro da instância de portal temos
 `que refere-se a possibilitar ao usuários acessar via navegador a aplicação`.
 
 ### ~/prd/CB80/servers/product:
-`/bin: scripts referentes a instalação e manutenção de instâncias do produto;`
-`/patch: corretivas ou atualizações do produto;`
-`/software: referente a alguns arquivos utilizados na instalação do produto;`
+`/bin: scripts referentes a instalação e manutenção de instâncias do produto;
+`/patch: corretivas ou atualizações do produto;
+`/software: referente a alguns arquivos utilizados na instalação do produto;
 
 `/instances/CB: onde está o core do produto;`
 
@@ -57,7 +57,7 @@ A parte mais importante é a da instância, dentro da instância de portal temos
 
 `/instances/CB/export: é uma pasta customizada criada para manutenção;`
 
-`/instances/CB/patch: diz respeito a arquivos de configuração da aplicação para fazer algum update na aplicação.`
+`/instances/CB/patch: diz respeito a arquivos de configuração da aplicação para fazer algum update na aplicação.
 
 
 Dentro do no CB também temos alguns arquivos que referem-se ao conexão Oracle (que não necessariamente precisa estar dentro dessa mesma máquina) e o Java, já que a aplicação é toda baseada em java.
