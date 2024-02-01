@@ -38,8 +38,7 @@ A parte mais importante é a da instância, dentro da instância de portal temos
 
 `patch, que são patchs de atualização do sistema, onde se precisa abrir algum chamado de alguma feature que não existe no sistema para os responsáveis pela manunteção;`
 
-`~/prd/CB80/servers/portal/instances/Portal/portal-servers/web:`
-`que refere-se a possibilitar ao usuários acessar via navegador a aplicação`.
+`~/prd/CB80/servers/portal/instances/Portal/portal-servers/web: que refere-se a possibilitar ao usuários acessar via navegador a aplicação`.
 
 ### ~/prd/CB80/servers/product:
 `/bin: scripts referentes a instalação e manutenção de instâncias do produto;`
