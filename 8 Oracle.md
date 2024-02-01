@@ -99,3 +99,16 @@ são tabelas utilizadas como base para uma view.
 `VW: indica que está relacionada com alguma view`
 `L: indica que é uma tabela de ligação`
 `H: indica que é uma tabela de histórico`
+
+## Views Materializadas do raid:
+### O que são views materializadas?
+São views que são guardadas na memória, pois o essa view possui uma grande gama de dados, tornando como um agente que retarda o processamento da aplicação. Por isso, elas são guardadas na memória temporariamente para rápido acesso
+
+### Quando usar uma view materializada?
+Geralmente nós utilizamos dependendo do caso do cliente. Usamos por meio de atualização periódica, para facilitar o acesso de dados, usamos para tabelas que não estão constantemente em atualização (como exemplo, um relatório enorme de funcionários/serviços da empresa, que não está constantemente em atualização (possamos definir que a view seja materializada diariamente ou semanalmente).
+
+## Procedures e Funções:
+São algoritmos que interagem com o banco. Procedures não retornam um valor, já funções como normalmente reconhecidas retornam.
+
+## Triggers:
+São gatilhos para execução de uma ação (geralmente para update)
