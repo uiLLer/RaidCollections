@@ -26,6 +26,7 @@ Dentro da pasta portal, tem a pasta de binários, que são alguns scripts que s�
 A parte mais importante é a da instância, dentro da instância de portal temos as pastas:
 
 `(~/prd/CB80/servers/portal/instances/Portal/)`
+
 `backup, para salvar algum estado da instância antes de algum update;`
 
 `bin, que contém alguns scripts, que contém dois comando de start e stop. Para baixar ou subir a instância em memória, para alguma manutenção o correção;`
