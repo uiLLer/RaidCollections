@@ -1,4 +1,4 @@
-
+após entender todos os conteúdos ([[1.Páginas]], [[2.Format]], [[3.Stream]], [[4.1 Fluxo de Carga de Dados]], [[4.2 Criação de tabelas]], [[4.3 Mapeamento de entidades]] [[4.4 Fluxo de Controle]], [[5 Flow 2]], [[6 Logical Fields]], [[7 Smart Content - Telas]], [[8 Oracle]], [[9 Linux]]), seguimos para a aplicação prática em uma atividade final:
 
 10 - Atividade do Curso RAID.docx
 
