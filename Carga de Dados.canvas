@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"8439b890e1ede95b","x":120,"y":-217,"width":400,"height":400,"color":"6","type":"file","file":"RaidCollections/2.Format.md"},
+		{"id":"5a5ab2b01d9f8e8e","x":960,"y":-217,"width":400,"height":400,"color":"6","type":"file","file":"RaidCollections/3.Stream.md"},
+		{"id":"746f952dc76bf686","x":400,"y":560,"width":400,"height":400,"color":"1","type":"file","file":"RaidCollections/4.1 Fluxo de Carga de Dados.md"},
+		{"id":"f89dbd82365df146","x":720,"y":1080,"width":400,"height":400,"color":"1","type":"file","file":"RaidCollections/4.3 Mapeamento de entidades.md"},
+		{"id":"183572cf9ffbdaa2","x":1160,"y":760,"width":400,"height":400,"color":"1","type":"file","file":"RaidCollections/4.2 Criação de tabelas.md"},
+		{"id":"272da7ba419373b2","x":1560,"y":1280,"width":400,"height":400,"color":"1","type":"file","file":"RaidCollections/4.4 Fluxo de Controle.md"}
+	],
+	"edges":[
+		{"id":"888cb16007554788","fromNode":"8439b890e1ede95b","fromSide":"right","toNode":"5a5ab2b01d9f8e8e","toSide":"left"},
+		{"id":"7726f7e61a815f63","fromNode":"5a5ab2b01d9f8e8e","fromSide":"bottom","toNode":"746f952dc76bf686","toSide":"top"},
+		{"id":"99ab18f043c3edb0","fromNode":"746f952dc76bf686","fromSide":"right","toNode":"183572cf9ffbdaa2","toSide":"top"},
+		{"id":"699d13fe2d424104","fromNode":"183572cf9ffbdaa2","fromSide":"left","toNode":"f89dbd82365df146","toSide":"top"},
+		{"id":"49262f30f8db83c9","fromNode":"f89dbd82365df146","fromSide":"right","toNode":"272da7ba419373b2","toSide":"left"}
+	]
+}
