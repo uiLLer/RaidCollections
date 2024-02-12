@@ -1,5 +1,5 @@
 Seguindo após entender o conteúdo da aula [[8 Oracle]].
-Nessa aula veremos os principais conteúdos de pastas e a navegação pelo servidor linux das nossas aplicações.
+Nessa aula veremos os principais conteúdos de pastas e a [[Navegação pelo Sistema]] linux das nossas aplicações.
 
 Configs:
 configuração da instalação das instâncias, não utilizamos muito durante do dia a dia.
